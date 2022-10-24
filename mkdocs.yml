@@ -1,0 +1,50 @@
+site_name: My Docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: purple
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Clean Mode
+
+nav:
+    - Home: index.md
+    - Material Theme: theme.md
+    - Basic: basic.md
+    - Basic(svg): basic_svg.md
+    - Notebook page: notebook.ipynb
+
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_css:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
+
+plugins:
+  - mkdocs-jupyter
+  - with-pdf:
+        author: Elson Junio
+
+
+
+
+
+
