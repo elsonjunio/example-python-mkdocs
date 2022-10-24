@@ -121,5 +121,5 @@ $ npm install -g mermaid-js-converter
 ```shell
 $ mjc -f basic_svg.md -o SVG
 ```
-
+More information in [mermaid-js-converter](https://github.com/superj80820/mermaid-js-converter)
 

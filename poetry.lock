@@ -641,17 +641,6 @@ i18n = ["babel (>=2.9.0)"]
 min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4)", "ghp-import (==1.0)", "importlib-metadata (==4.3)", "jinja2 (==2.11.1)", "markdown (==3.2.1)", "markupsafe (==2.0.1)", "mergedeep (==1.3.4)", "packaging (==20.5)", "pyyaml (==5.1)", "pyyaml-env-tag (==0.1)", "typing-extensions (==3.10)", "watchdog (==2.0)"]
 
 [[package]]
-name = "mkdocs-drawio-exporter"
-version = "0.8.0"
-description = "Exports your Draw.io diagrams at build time for easier embedding into your documentation"
-category = "dev"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-mkdocs = "*"
-
-[[package]]
 name = "mkdocs-jupyter"
 version = "0.22.0"
 description = "Use Jupyter in mkdocs websites"
@@ -1240,7 +1229,7 @@ test = ["pytest"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "98e686c076eab6998ba843451f3fb6c680bee102ecd04c8524d52f530d103d47"
+content-hash = "ad210e714f837ed738947a43c2950e24bf62373e0031988887c1390dff0a3137"
 
 [metadata.files]
 appnope = [
@@ -1886,10 +1875,6 @@ mistune = [
 mkdocs = [
     {file = "mkdocs-1.4.1-py3-none-any.whl", hash = "sha256:2b7845c2775396214cd408753e4cfb01af3cfed36acc141a84bce2ceec9d705d"},
     {file = "mkdocs-1.4.1.tar.gz", hash = "sha256:07ed90be4062e4ef732bbac2623097b9dca35c67b562c38cfd0bfbc7151758c1"},
-]
-mkdocs-drawio-exporter = [
-    {file = "mkdocs-drawio-exporter-0.8.0.tar.gz", hash = "sha256:f5cbc0d7ce854ba6c79a93abbf839f3d9e6445f81f69f05f696c60589225c300"},
-    {file = "mkdocs_drawio_exporter-0.8.0-py3-none-any.whl", hash = "sha256:c5f41c739f0722e791fbe9ba88265e276815413139331789ebdfdd757a3fdcb7"},
 ]
 mkdocs-jupyter = [
     {file = "mkdocs-jupyter-0.22.0.tar.gz", hash = "sha256:585cc69bea4cb9faf6898131978dc9a9b225091ed4b6084f5ab65652a5e12185"},

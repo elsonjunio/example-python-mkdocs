@@ -18,7 +18,6 @@ mkdocs-material = "^8.5.7"
 pymdown-extensions = "^9.7"
 ipykernel = "^6.16.1"
 mkdocs-with-pdf = "^0.9.3"
-mkdocs-drawio-exporter = "^0.8.0"
 
 [build-system]
 requires = ["poetry-core"]
