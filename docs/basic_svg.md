@@ -99,7 +99,7 @@ Sequence diagram
 Gantt diagram
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZ2FudHRcbmRhdGVGb3JtYXQgIFlZWVktTU0tRERcbnRpdGxlIEFkZGluZyBHQU5UVCBkaWFncmFtIHRvIG1lcm1haWRcbmV4Y2x1ZGVzIHdlZWtkYXlzIDIwMTQtMDEtMTBcblxuc2VjdGlvbiBBIHNlY3Rpb25cbkNvbXBsZXRlZCB0YXNrICAgICAgICAgICAgOmRvbmUsICAgIGRlczEsIDIwMTQtMDEtMDYsMjAxNC0wMS0wOFxuQWN0aXZlIHRhc2sgICAgICAgICAgICAgICA6YWN0aXZlLCAgZGVzMiwgMjAxNC0wMS0wOSwgM2RcbkZ1dHVyZSB0YXNrICAgICAgICAgICAgICAgOiAgICAgICAgIGRlczMsIGFmdGVyIGRlczIsIDVkXG5GdXR1cmUgdGFzazIgICAgICAgICAgICAgICA6ICAgICAgICAgZGVzNCwgYWZ0ZXIgZGVzMywgNWRcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ2FudHRcbmRhdGVGb3JtYXQgIFlZWVktTU0tRERcbnRpdGxlIEFkZGluZyBHQU5UVCBkaWFncmFtIHRvIG1lcm1haWRcbmV4Y2x1ZGVzIHdlZWtkYXlzIDIwMTQtMDEtMTBcblxuc2VjdGlvbiBBIHNlY3Rpb25cbkNvbXBsZXRlZCB0YXNrICAgICAgICAgICAgOmRvbmUsICAgIGRlczEsIDIwMTQtMDEtMDYsMjAxNC0wMS0wOFxuQWN0aXZlIHRhc2sgICAgICAgICAgICAgICA6YWN0aXZlLCAgZGVzMiwgMjAxNC0wMS0wOSwgM2RcbkZ1dHVyZSB0YXNrICAgICAgICAgICAgICAgOiAgICAgICAgIGRlczMsIGFmdGVyIGRlczIsIDVkXG5GdXR1cmUgdGFzazIgICAgICAgICAgICAgICA6ICAgICAgICAgZGVzNCwgYWZ0ZXIgZGVzMywgNWRcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
 
-# Export PDF
+### Export PDF
 
 ```shell
 $ poetry add --dev mkdocs-with-pdf
@@ -111,5 +111,15 @@ plugins:
 ```
 
 More information in [MkDocs PDF Export Plugin](https://github.com/zhaoterryy/mkdocs-pdf-export-plugin)
+
+### Converte Mermaid Diagrams
+
+```shell
+$ npm install -g mermaid-js-converter
+```
+
+```shell
+$ mjc -f basic_svg.md -o SVG
+```
 
 
